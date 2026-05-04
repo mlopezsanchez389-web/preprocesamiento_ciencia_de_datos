@@ -1,0 +1,1 @@
+Primero se aplica perfilado, luego limpieza, luego deduplicados, luego nuevo perfilado
