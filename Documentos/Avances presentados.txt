@@ -1,29 +1,46 @@
-Avance 1:
-  Archivo:
-  Descripción de cambios:
-  Presentación:
+Avance 1: Bases de datos identificadas
+  Archivo: PY.PCD.260226
+  Descripción de cambios: 
+    -Bases de datos identificadas
+    -Heterogeneidad identificada
+    -Mapeo de esquemas
+    
+  Presentación: Presentación PY.PCD.260226
 
 Avance 2:
-  Archivo:
+  Archivo: PY.PCD.100326
   Descripción de cambios:
-  Presentación:
+    -Problemática identificada
+    -20 preguntas de negocio
+    -Objetos relevantes 
+  Presentación: Presentación PY.PCD.100326
 
 Avance 3:
-  Archivo:
+  Archivo: PY.PCD.190326
   Descripción de cambios:
-  Presentación:
+    -Perfilado de datos previo a su limpieza
+    -Unión de las bases de datos
+  Presentación: Presentación PY.PCD.190326
 
 Avance 4:
-  Archivo:
+  Archivo: PY.PCD.160426
   Descripción de cambios:
-  Presentación:
+    -Limpieza de datos
+    -Detección y eliminación de duplicados
+    -Post perfilado
+  Presentación: Presentación PY.PCD.160426
 
-Avance 5:
-  Archivo:
+Avance 5: 
+  Archivo: PY.PCD.050526
   Descripción de cambios:
-  Presentación:
+  Presentación: Presentación PY.PCD.050526
 
 Avance 6:
-  Archivo:
+  Archivo: PY.PCD.190526
   Descripción de cambios:
-  Presentación:
+  Presentación: Presentación PY.PCD.190526
+
+Entrega FINAL: 
+  Archivo: PY.PCD.260226
+  Descripción de cambios:
+  Presentación: Presentación PY.PCD.260226
