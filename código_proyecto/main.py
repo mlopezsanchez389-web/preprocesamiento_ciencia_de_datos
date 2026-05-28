@@ -35,36 +35,48 @@ from code_python.herramientas.Transformacion_y_reduccion_de_defunciones import t
 from code_python.herramientas.Transformacion_y_reduccion_de_vih import transformar_reducir_vih
 
 from code_python.cargar_sql import cargar_a_sql
+from code_python.crear_grafo_networkx import crear_grafo_metricas_mensuales
+from code_python.crear_corpus_vectorial import crear_corpus_vectorial_hgm_faiss
 
-# ############# Unificador de bases de datos ################
-combinar_vih()
-combinar_defunciones()
-combinar_consultas_hospital()
+from code_python.consultas_llm import consultar_llm
+from code_python.interpretador_llm import interpretar_llm
 
-# ################ Pre perfilado bases de datos ##################
-pre_perfilar_vih = ruta_proyecto_inicial / "code_python" / "perfilar_vih.py"
-pre_perfilar_defunciones = ruta_proyecto_inicial / "code_python" / "perfilar_defunciones.py"
-pre_perfilar_consultas_hospital = ruta_proyecto_inicial / "code_python" / "perfilar_consultas_hospital.py"
+# # ############# Unificador de bases de datos ################
+# combinar_vih()
+# combinar_defunciones()
+# combinar_consultas_hospital()
 
-runpy.run_path(str(pre_perfilar_vih), run_name="__main__")
-runpy.run_path(str(pre_perfilar_defunciones), run_name="__main__")
-runpy.run_path(str(pre_perfilar_consultas_hospital), run_name="__main__")
+# # ################ Pre perfilado bases de datos ##################
+# pre_perfilar_vih = ruta_proyecto_inicial / "code_python" / "perfilar_vih.py"
+# pre_perfilar_defunciones = ruta_proyecto_inicial / "code_python" / "perfilar_defunciones.py"
+# pre_perfilar_consultas_hospital = ruta_proyecto_inicial / "code_python" / "perfilar_consultas_hospital.py"
 
-# ############ Limpieza y estandarización #############
+# runpy.run_path(str(pre_perfilar_vih), run_name="__main__")
+# runpy.run_path(str(pre_perfilar_defunciones), run_name="__main__")
+# runpy.run_path(str(pre_perfilar_consultas_hospital), run_name="__main__")
 
-limpieza_estandarizacion_vih()
-limpieza_estandarizacion_consultas_hospital()
-limpieza_estandarizacion_defunciones()
+# # ############ Limpieza y estandarización #############
 
-deduplicar_vih()
-deduplicar_consultas_hospital()
-deduplicar_defunciones()
+# limpieza_estandarizacion_vih()
+# limpieza_estandarizacion_consultas_hospital()
+# limpieza_estandarizacion_defunciones()
 
-transformar_reducir_vih()
-transformar_reducir_consultas_hospital()
-transformar_reducir_defunciones()
+# deduplicar_vih()
+# deduplicar_consultas_hospital()
+# deduplicar_defunciones()
 
-cargar_a_sql()
+# transformar_reducir_vih()
+# transformar_reducir_consultas_hospital()
+# transformar_reducir_defunciones()
+
+# cargar_a_sql()
+
+# crear_grafo_metricas_mensuales()
+# crear_corpus_vectorial_hgm_faiss()
+
+pregunta = "Qué diferencias se observan por sexo en consultas, CD4, defunciones y porcentaje de pruebas reactivas a lo largo del periodo 2019–2023"
+resultado = consultar_llm(pregunta)
+interpretacion = interpretar_llm(pregunta, resultado)
 
 
 
