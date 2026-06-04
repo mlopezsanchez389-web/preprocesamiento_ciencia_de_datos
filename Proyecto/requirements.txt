@@ -1,0 +1,11 @@
+pandas
+numpy
+matplotlib
+psycopg2-binary
+networkx
+scikit-learn
+faiss-cpu
+joblib
+recordlinkage
+--extra-index-url https://abetlen.github.io/llama-cpp-python/whl/cpu
+llama-cpp-python

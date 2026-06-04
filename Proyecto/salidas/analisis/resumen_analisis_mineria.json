@@ -1,0 +1,254 @@
+{
+  "filas_mensuales": 60,
+  "columnas_usadas": [
+    "consultas_vih",
+    "proporcion_consultas_vih",
+    "muestras_total",
+    "cd4_promedio",
+    "casos_cd4_bajo",
+    "proporcion_cd4_bajo",
+    "defunciones_vih",
+    "proporcion_defunciones_vih",
+    "pruebas_reactivas",
+    "pct_reactivas_consejeria",
+    "pct_reactivas_otros_programas"
+  ],
+  "correlaciones": {
+    "consultas_vih": {
+      "consultas_vih": 1.0,
+      "proporcion_consultas_vih": 0.6418,
+      "muestras_total": 0.6916,
+      "cd4_promedio": -0.4115,
+      "casos_cd4_bajo": 0.6995,
+      "proporcion_cd4_bajo": 0.4465,
+      "defunciones_vih": -0.1536,
+      "proporcion_defunciones_vih": 0.007,
+      "pruebas_reactivas": 0.49,
+      "pct_reactivas_consejeria": -0.1691,
+      "pct_reactivas_otros_programas": -0.0061
+    },
+    "proporcion_consultas_vih": {
+      "consultas_vih": 0.6418,
+      "proporcion_consultas_vih": 1.0,
+      "muestras_total": 0.4325,
+      "cd4_promedio": -0.1544,
+      "casos_cd4_bajo": 0.4692,
+      "proporcion_cd4_bajo": 0.1793,
+      "defunciones_vih": 0.0908,
+      "proporcion_defunciones_vih": 0.0776,
+      "pruebas_reactivas": -0.0434,
+      "pct_reactivas_consejeria": 0.1276,
+      "pct_reactivas_otros_programas": -0.3416
+    },
+    "muestras_total": {
+      "consultas_vih": 0.6916,
+      "proporcion_consultas_vih": 0.4325,
+      "muestras_total": 1.0,
+      "cd4_promedio": -0.2975,
+      "casos_cd4_bajo": 0.9491,
+      "proporcion_cd4_bajo": 0.3386,
+      "defunciones_vih": -0.2965,
+      "proporcion_defunciones_vih": -0.2368,
+      "pruebas_reactivas": 0.252,
+      "pct_reactivas_consejeria": 0.0549,
+      "pct_reactivas_otros_programas": 0.0159
+    },
+    "cd4_promedio": {
+      "consultas_vih": -0.4115,
+      "proporcion_consultas_vih": -0.1544,
+      "muestras_total": -0.2975,
+      "cd4_promedio": 1.0,
+      "casos_cd4_bajo": -0.644,
+      "proporcion_cd4_bajo": -0.9692,
+      "defunciones_vih": -0.0494,
+      "proporcion_defunciones_vih": 0.2754,
+      "pruebas_reactivas": -0.2742,
+      "pct_reactivas_consejeria": -0.0075,
+      "pct_reactivas_otros_programas": -0.0281
+    },
+    "casos_cd4_bajo": {
+      "consultas_vih": 0.6995,
+      "proporcion_consultas_vih": 0.4692,
+      "muestras_total": 0.9491,
+      "cd4_promedio": -0.644,
+      "casos_cd4_bajo": 1.0,
+      "proporcion_cd4_bajo": 0.6941,
+      "defunciones_vih": -0.2361,
+      "proporcion_defunciones_vih": -0.2646,
+      "pruebas_reactivas": 0.2956,
+      "pct_reactivas_consejeria": 0.0414,
+      "pct_reactivas_otros_programas": -0.0122
+    },
+    "proporcion_cd4_bajo": {
+      "consultas_vih": 0.4465,
+      "proporcion_consultas_vih": 0.1793,
+      "muestras_total": 0.3386,
+      "cd4_promedio": -0.9692,
+      "casos_cd4_bajo": 0.6941,
+      "proporcion_cd4_bajo": 1.0,
+      "defunciones_vih": 0.1085,
+      "proporcion_defunciones_vih": -0.2282,
+      "pruebas_reactivas": 0.2259,
+      "pct_reactivas_consejeria": 0.056,
+      "pct_reactivas_otros_programas": 0.0714
+    },
+    "defunciones_vih": {
+      "consultas_vih": -0.1536,
+      "proporcion_consultas_vih": 0.0908,
+      "muestras_total": -0.2965,
+      "cd4_promedio": -0.0494,
+      "casos_cd4_bajo": -0.2361,
+      "proporcion_cd4_bajo": 0.1085,
+      "defunciones_vih": 1.0,
+      "proporcion_defunciones_vih": 0.4386,
+      "pruebas_reactivas": -0.2961,
+      "pct_reactivas_consejeria": 0.1616,
+      "pct_reactivas_otros_programas": 0.2339
+    },
+    "proporcion_defunciones_vih": {
+      "consultas_vih": 0.007,
+      "proporcion_consultas_vih": 0.0776,
+      "muestras_total": -0.2368,
+      "cd4_promedio": 0.2754,
+      "casos_cd4_bajo": -0.2646,
+      "proporcion_cd4_bajo": -0.2282,
+      "defunciones_vih": 0.4386,
+      "proporcion_defunciones_vih": 1.0,
+      "pruebas_reactivas": 0.1958,
+      "pct_reactivas_consejeria": -0.4812,
+      "pct_reactivas_otros_programas": -0.2055
+    },
+    "pruebas_reactivas": {
+      "consultas_vih": 0.49,
+      "proporcion_consultas_vih": -0.0434,
+      "muestras_total": 0.252,
+      "cd4_promedio": -0.2742,
+      "casos_cd4_bajo": 0.2956,
+      "proporcion_cd4_bajo": 0.2259,
+      "defunciones_vih": -0.2961,
+      "proporcion_defunciones_vih": 0.1958,
+      "pruebas_reactivas": 1.0,
+      "pct_reactivas_consejeria": -0.8369,
+      "pct_reactivas_otros_programas": -0.4464
+    },
+    "pct_reactivas_consejeria": {
+      "consultas_vih": -0.1691,
+      "proporcion_consultas_vih": 0.1276,
+      "muestras_total": 0.0549,
+      "cd4_promedio": -0.0075,
+      "casos_cd4_bajo": 0.0414,
+      "proporcion_cd4_bajo": 0.056,
+      "defunciones_vih": 0.1616,
+      "proporcion_defunciones_vih": -0.4812,
+      "pruebas_reactivas": -0.8369,
+      "pct_reactivas_consejeria": 1.0,
+      "pct_reactivas_otros_programas": 0.4928
+    },
+    "pct_reactivas_otros_programas": {
+      "consultas_vih": -0.0061,
+      "proporcion_consultas_vih": -0.3416,
+      "muestras_total": 0.0159,
+      "cd4_promedio": -0.0281,
+      "casos_cd4_bajo": -0.0122,
+      "proporcion_cd4_bajo": 0.0714,
+      "defunciones_vih": 0.2339,
+      "proporcion_defunciones_vih": -0.2055,
+      "pruebas_reactivas": -0.4464,
+      "pct_reactivas_consejeria": 0.4928,
+      "pct_reactivas_otros_programas": 1.0
+    }
+  },
+  "resumen_periodo": [
+    {
+      "periodo": "PANDEMIA",
+      "consultas_vih": 579.0,
+      "cd4_promedio": 0.1279989399236308,
+      "casos_cd4_bajo": 1289.0,
+      "defunciones_vih": 664.0,
+      "pct_reactivas_consejeria_promedio": 13.737500000000004
+    },
+    {
+      "periodo": "POSTPANDEMIA",
+      "consultas_vih": 2325.0,
+      "cd4_promedio": 0.1304911971523471,
+      "casos_cd4_bajo": 2700.0,
+      "defunciones_vih": 1179.0,
+      "pct_reactivas_consejeria_promedio": 10.879999999999997
+    },
+    {
+      "periodo": "PREPANDEMIA",
+      "consultas_vih": 180.0,
+      "cd4_promedio": 0.19155412422044674,
+      "casos_cd4_bajo": 343.0,
+      "defunciones_vih": 614.0,
+      "pct_reactivas_consejeria_promedio": 11.64285714285714
+    }
+  ],
+  "resumen_sexo": [
+    {
+      "sexo_etiqueta": "FEMENINO_MUJER",
+      "consultas_vih": 480.0,
+      "cd4_promedio": 0.12212570158249297,
+      "casos_cd4_bajo": 361.0,
+      "defunciones_vih": 339.0
+    },
+    {
+      "sexo_etiqueta": "MASCULINO_HOMBRE",
+      "consultas_vih": 2604.0,
+      "cd4_promedio": 0.14037787144396546,
+      "casos_cd4_bajo": 3971.0,
+      "defunciones_vih": 2118.0
+    }
+  ],
+  "resumen_edad": [
+    {
+      "grupo_edad": "00_17",
+      "consultas_vih": 16.0,
+      "cd4_promedio": 0.18685997910135843,
+      "casos_cd4_bajo": 2.0,
+      "defunciones_vih": 15.0
+    },
+    {
+      "grupo_edad": "18_24",
+      "consultas_vih": 222.0,
+      "cd4_promedio": 0.15334125025571374,
+      "casos_cd4_bajo": 635.0,
+      "defunciones_vih": 97.0
+    },
+    {
+      "grupo_edad": "25_34",
+      "consultas_vih": 780.0,
+      "cd4_promedio": 0.1458479313939455,
+      "casos_cd4_bajo": 1939.0,
+      "defunciones_vih": 688.0
+    },
+    {
+      "grupo_edad": "35_44",
+      "consultas_vih": 809.0,
+      "cd4_promedio": 0.12803731523129194,
+      "casos_cd4_bajo": 1088.0,
+      "defunciones_vih": 643.0
+    },
+    {
+      "grupo_edad": "45_54",
+      "consultas_vih": 736.0,
+      "cd4_promedio": 0.10955798673388951,
+      "casos_cd4_bajo": 475.0,
+      "defunciones_vih": 507.0
+    },
+    {
+      "grupo_edad": "55_64",
+      "consultas_vih": 391.0,
+      "cd4_promedio": 0.08286580365837934,
+      "casos_cd4_bajo": 172.0,
+      "defunciones_vih": 305.0
+    },
+    {
+      "grupo_edad": "65_MAS",
+      "consultas_vih": 130.0,
+      "cd4_promedio": 0.11198275862068965,
+      "casos_cd4_bajo": 21.0,
+      "defunciones_vih": 202.0
+    }
+  ]
+}
